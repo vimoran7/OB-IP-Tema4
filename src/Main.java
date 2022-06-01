@@ -39,10 +39,8 @@ public class Main {
 
         // Punto IV
 
-        int numeroFor[] = {1, 2, 3};
-
-        for (int i = 0; i < numeroFor.length; i++) {
-            System.out.println(numeroFor[i]);
+        for(int numeroFor = 0; numeroFor <= 3; numeroFor++){
+            System.out.println("La variable numeroFor ahora vale: " + numeroFor);
         }
 
 
